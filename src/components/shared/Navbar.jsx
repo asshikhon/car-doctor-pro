@@ -84,6 +84,7 @@ navItems.map((item) => (
       <CiSearch className="text-xl" />
 
         <a className="btn btn-outline btn-primary px-8">Appointment</a>
+        <Link href={`/login`}><button className="btn btn-primary text-white">Login</button></Link>
       </div>
     </div>
   );
